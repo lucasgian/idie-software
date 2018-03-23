@@ -26,4 +26,3 @@ ISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.
 
 
 ## Qual é a motivação / caso de uso para mudar o comportamento?<! - Descreva a motivação ou o caso de uso concreto. ->
-

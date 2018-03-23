@@ -27,6 +27,7 @@ Que tipo de mudança este PR apresenta?
 Número da Edição: N / A
 
 
+
 ## Qual é o novo comportamento?
 
 
