@@ -2,7 +2,7 @@
 
 
 # Estrutura de diretorios
-
+```
 .
 ├── index.php
 ├── src
@@ -55,3 +55,4 @@
 │   ├── footer-logo.png
 │   └── logo.png
 └── 
+```
