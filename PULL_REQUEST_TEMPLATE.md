@@ -9,7 +9,7 @@ Por favor, verifique se o seu RP cumpre os seguintes requisitos:
 ## PR Type
 Que tipo de mudança este PR apresenta?
 
-<! - Por favor, verifique o que se aplica a este PR usando "x". ->
+<!-- Por favor, verifique o que se aplica a este PR usando "x". -->
 ```
 [ ] Bugfix (correção)
 [ ] Feature (adição de funcionalidade)
@@ -22,7 +22,7 @@ Que tipo de mudança este PR apresenta?
 ```
 
 ## Qual é o comportamento atual?
-<! - Descreva o comportamento atual que você está modificando ou vincule a um problema relevante. ->
+<!-- Descreva o comportamento atual que você está modificando ou vincule a um problema relevante. -->
 
 Número da Edição: N / A
 
@@ -32,7 +32,7 @@ Número da Edição: N / A
 
 
 
-<! - Se este PR contiver uma alteração significativa, descreva o impacto e o caminho de migração dos aplicativos existentes abaixo. ->
+<!-- Se este PR contiver uma alteração significativa, descreva o impacto e o caminho de migração dos aplicativos existentes abaixo. -->
 
 
 ## Outra informação
