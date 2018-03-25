@@ -1,7 +1,7 @@
 ## PR Checklist
 Por favor, verifique se o seu RP cumpre os seguintes requisitos:
 
-- [ ] A mensagem de confirmação segue nossas diretrizes: https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit
+- [ ] A mensagem de confirmação segue nossas diretrizes
 - [ ] testes para as mudanças foram adicionados (para correções de bugs / recursos)
 - [ ] Documentos foram adicionados / atualizados (para correções de bugs / recursos)
 

@@ -4,12 +4,13 @@
 # Estrutura de diretorios
 ```
 .
+├── .htaccess
 ├── index.php
 ├── src
 │   ├── Model
 │   │   ├── 
 │   │   ├── 
-│   │   ├── Table (dao)
+│   │   ├── Table (DAO)
 │   │   │	├── 
 │   │   │	├── 
 │   │   │	└── 
@@ -25,6 +26,10 @@
 │   │   	├── 
 │   │   	└──  
 │	├── Adapter
+│   │   ├── 
+│   │   ├── 
+│   │   └──
+│	├── Shell
 │   │   ├── 
 │   │   ├── 
 │   │   └──
