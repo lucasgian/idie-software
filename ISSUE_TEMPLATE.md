@@ -16,13 +16,17 @@ ISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.
 </code></pre>
 
 
-## Comportamento atual<!-- Descreva como o problema se manifesta. -->
+## Comportamento atual
+<!-- Descreva como o problema se manifesta. -->
 
 
-## Comportamento esperado<!-- Descreva qual seria o comportamento desejado. -->
+## Comportamento esperado
+<!-- Descreva qual seria o comportamento desejado. -->
 
 
-## Reprodução mínima do problema com instruções<!-- Para relatórios de bugs, por favor, forneça os * PASSOS PARA REPRODUZIR * e, se possível, uma * DEMONSTRAÇÃO MÍNIMA * do problema viahttps://stackblitz.com ou similar (você pode usar este modelo como ponto de partida: https://stackblitz.com/fork/angular-gitter). -->
+## Reprodução mínima do problema com instruções
+<!-- Para relatórios de bugs, por favor, forneça os * PASSOS PARA REPRODUZIR * e, se possível, uma * DEMONSTRAÇÃO MÍNIMA * do problema viahttps://stackblitz.com ou similar (você pode usar este modelo como ponto de partida: https://stackblitz.com/fork/angular-gitter). -->
 
 
-## Qual é a motivação / caso de uso para mudar o comportamento? <!-- Descreva a motivação ou o caso de uso concreto. -->
+## Qual é a motivação / caso de uso para mudar o comportamento? 
+<!-- Descreva a motivação ou o caso de uso concreto. -->
