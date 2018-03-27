@@ -7,7 +7,7 @@ class RouterComponent {
 		Configuração de rotas.
 	*/
     private static $routes = [
-    	['name' => 'main', 'presenter' => 'MainPresenter'], 'path' => '',
+    	['name' => 'main', 'presenter' => 'MainPresenter', 'path' => ''],
     	['name' => 'login', 'presenter' => 'login.php', 'path' => '']
     ];
 
@@ -22,7 +22,7 @@ class RouterComponent {
 				return $value['presenter'];
 		}
 
-		return 'index.php';
+		return 'MainPresenter';
     }
 }
 
