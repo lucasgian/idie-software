@@ -1,6 +1,6 @@
 <?php
 
-class Controller extends RouterComponent {
+class Frame extends RouterComponent {
 	function __construct() {
 		$this->presenter($this->on());
 	}
