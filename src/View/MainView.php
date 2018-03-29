@@ -1,6 +1,6 @@
 <?php
 
-class MainPresenter implements Presenter {
+class MainView implements View {
 	function __construct() {
 		$this->index();
 	}

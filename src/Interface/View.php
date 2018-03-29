@@ -1,5 +1,5 @@
 <?php
-interface Presenter {
+interface View {
 	public function index();
 	public function add();
 	public function edit();
