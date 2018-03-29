@@ -3,7 +3,7 @@
 require_once 'config/autoload.php';
 
 
-$controller = new Controller();
+$controller = new Frame();
 //echo Router::on();
 
 /*
