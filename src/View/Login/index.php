@@ -18,8 +18,8 @@ $title = 'Login';?>
         <?= $title ?>
     </title>
 
-    <link type="text/css" rel="stylesheet" href="<?= __MATERIALIZE__.'css/materialize.min.css' ?>"/>
-    <link rel="stylesheet" type="text/css" href="<?= __VIEW__ . '/Login/login.css'; ?>">
+    <link type="text/css" rel="stylesheet" href="<?= __MATERIALIZE__ . 'css/materialize.min.css' ?>"/>
+    <link rel="stylesheet" type="text/css" href="<?= __CSS__ . 'form.css'; ?>">
 
 </head>
 
@@ -91,8 +91,8 @@ $title = 'Login';?>
           </button>
         </div>
         <div class="col-md-6 col-xs-6 ">
-          <button routerLink="register" type="button" id="solicitar-acesso" name="solicitar-acesso" class="btn btn-block btn-success pull-right">Solicitar Acesso
-          </button>
+          <a href="register" type="button" id="solicitar-acesso" name="solicitar-acesso" class="btn btn-block btn-success pull-right">Solicitar Acesso
+          </a>
         </div>
 
       </div>

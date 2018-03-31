@@ -54,8 +54,8 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
                     <li><a href="sass.html">Artigos</a></li>
                     <li><a href="badges.html">Guia</a></li>
                     <li><a href="collapsible.html">Javascript</a></li>
-                    <li><a class="waves-effect waves-light btn red darken-4" href="mobile.html">Register</a></li>
-                    <li><a class="waves-effect waves-light btn red darken-4" href="mobile.html">Login</a></li>
+                    <li><a class="waves-effect waves-light btn red darken-4" href="register">Register</a></li>
+                    <li><a class="waves-effect waves-light btn red darken-4" href="login">Login</a></li>
                 </ul>
             </div>
         </nav>
