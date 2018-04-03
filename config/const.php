@@ -11,6 +11,7 @@ define('__INTERFACE__', 'src/Interface/');
 
 define('__VIEW__', 'src/View/');
 define('__PAGES__', 'src/View/Pages/');
+define('__STATIC__', 'src/View/Static/');
 
 
 
