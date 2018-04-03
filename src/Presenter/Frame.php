@@ -2,11 +2,12 @@
 
 class Frame extends RouterComponent {
 	function __construct() {
-		$this->presenter($this->on());
+		$router = $this->on();
+		$this->presenter($router['presenter'], $router['page']);
 	}
 
-	function presenter($name) {
-		new $name();
+	function presenter($name, $page) {
+		new $name($page);
 	}
 }
 

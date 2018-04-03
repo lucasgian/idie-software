@@ -7,9 +7,15 @@ class RouterComponent {
 		Configuração de rotas.
 	*/
     private static $routes = [
-    	['name' => 'main', 'presenter' => 'MainView', 'path' => 'Pages/'],
-    	['name' => 'login', 'presenter' => 'LoginView', 'path' => 'Login/'],
-    	['name' => 'register', 'presenter' => 'RegisterView', 'path' => 'Register/']
+    	['name' => 'main', 'presenter' => 'MainView', 'page' => 'index'],
+    	['name' => 'login', 'presenter' => 'LoginView', 'page' => 'index'],
+    	['name' => 'register', 'presenter' => 'RegisterView', 'page' => 'index'],
+        ['name' => 'post', 'presenter' => 'PostView', 'page' => 'index'],
+        ['name' => 'post/view', 'presenter' => 'PostView', 'page' => 'view'],
+        ['name' => 'post/add/1', 'presenter' => 'PostView', 'page' => 'add'],
+        ['name' => 'post/add/2', 'presenter' => 'PostView', 'page' => 'add'],
+        ['name' => 'post/add/3', 'presenter' => 'PostView', 'page' => 'add'],
+        ['name' => 'post/add/review', 'presenter' => 'PostView', 'page' => 'add']
     ];
 
     /**
@@ -20,10 +26,10 @@ class RouterComponent {
 
 		foreach (self::$routes as $value) {
 			if ($value['name'] == $context)
-				return $value['presenter'];
+				return $value;
 		}
 
-		return 'MainView';
+		return self::$routes[0];
     }
 }
 

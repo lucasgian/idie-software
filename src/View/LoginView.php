@@ -1,8 +1,8 @@
 <?php
 
 class LoginView implements View {
-	function __construct() {
-		$this->index();
+	function __construct($page) {
+		$this->$page();
 	}
 
 	public function index() { 
