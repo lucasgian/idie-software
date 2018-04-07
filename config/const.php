@@ -8,11 +8,13 @@ define('__APP_ROOT__', '/idie-software/');
 define('__PRESENTER__', 'src/Presenter/');
 define('__COMPONENT__', 'src/Presenter/component/');
 define('__INTERFACE__', 'src/Interface/');
+define('__ADAPTER__', 'src/Adapter/');
 
 define('__VIEW__', 'src/View/');
 define('__PAGES__', 'src/View/Pages/');
 define('__STATIC__', 'src/View/Static/');
 
-
+define('__ENTITY__', 'src/Model/Entity/');
+define('__TABLE__', 'src/Model/Table/');
 
 ?>

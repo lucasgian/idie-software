@@ -1,6 +1,7 @@
 <?php
 
 require_once 'const.php';
+require_once 'environment.php';
 
 
 spl_autoload_register(function ($class_name) {
@@ -15,6 +16,15 @@ spl_autoload_register(function ($class_name) {
 
     if(file_exists(__INTERFACE__. $class_name . '.php'))
     	require_once __INTERFACE__. $class_name . '.php';
+
+    if(file_exists(__ADAPTER__. $class_name . '.php'))
+    	require_once __ADAPTER__. $class_name . '.php';
+
+    if(file_exists(__ENTITY__. $class_name . '.php'))
+        require_once __ENTITY__. $class_name . '.php';
+
+    if(file_exists(__TABLE__. $class_name . '.php'))
+        require_once __TABLE__. $class_name . '.php';
 });
 
 ?>
