@@ -3,10 +3,10 @@
 class Frame extends RouterComponent {
 	function __construct() {
 		$router = $this->on();
-		$this->presenter($router['presenter'], $router['page']);
+		$this->viewController($router['presenter'], $router['page']);
 	}
 
-	function presenter($name, $page) {
+	function viewController($name, $page) {
 		new $name($page);
 	}
 }
