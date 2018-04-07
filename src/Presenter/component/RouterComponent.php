@@ -15,7 +15,8 @@ class RouterComponent {
         ['name' => 'post/add/1', 'presenter' => 'PostView', 'page' => 'add'],
         ['name' => 'post/add/2', 'presenter' => 'PostView', 'page' => 'add'],
         ['name' => 'post/add/3', 'presenter' => 'PostView', 'page' => 'add'],
-        ['name' => 'post/add/review', 'presenter' => 'PostView', 'page' => 'add']
+        ['name' => 'post/add/review', 'presenter' => 'PostView', 'page' => 'add'],
+        ['name' => 'post/submit/1', 'presenter' => 'PostPresenter', 'page' => 'one']
     ];
 
     /**

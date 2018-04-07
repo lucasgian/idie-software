@@ -6,4 +6,3 @@ interface View {
 	public function edit();
 	public function view();
 }
-?>

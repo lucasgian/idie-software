@@ -51,28 +51,32 @@ $title = 'Página de exemplo';?>
 
 
 	<h1>Informações basicas</h1>
-	<ul class="collapsible popout">
-	  <li>
-	    <div class="collapsible-header"><i class="material-icons">title</i>Título</div>
-	    <div class="collapsible-body"><span>Título</span><input type="text" name="name"></div>
-	  </li>
-	  <li>
-	    <div class="collapsible-header"><i class="material-icons">description</i>Descrição</div>
-	    <div class="collapsible-body"><span>Descrição</span><input type="text" name="description"></div>
-	  </li>
-	  <li>
-	    <div class="collapsible-header"><i class="material-icons">image</i>Imagem</div>
-	    <div class="collapsible-body row">
-	    	<span>Imagem de apresentação</span>
-	    	<div class="file-field input-field">
-	    		<div class="btn">
-	        		<span>Imagem</span>
-	        		<input type="file" multiple>
-	      		</div>
-	    	</div>
-	    </div>
-	  </li>
-	</ul>	
+	<form action="../../post/submit/1" method="post">
+		<ul class="collapsible popout">
+		  <li>
+		    <div class="collapsible-header"><i class="material-icons">title</i>Título</div>
+		    <div class="collapsible-body"><span>Título</span><input type="text" name="name"></div>
+		  </li>
+		  <li>
+		    <div class="collapsible-header"><i class="material-icons">description</i>Descrição</div>
+		    <div class="collapsible-body"><span>Descrição</span><input type="text" name="description"></div>
+		  </li>
+		  <li>
+		    <div class="collapsible-header"><i class="material-icons">image</i>Imagem</div>
+		    <div class="collapsible-body row">
+		    	<span>Imagem de apresentação</span>
+		    	<div class="file-field input-field">
+		    		<div class="btn">
+		        		<span>Imagem</span>
+		        		<input type="file" multiple>
+		      		</div>
+		    	</div>
+		    </div>
+		  </li>
+		</ul>	
+		<input type="submit" class="waves-effect waves-light btn-large green">
+	</form>
+
 	<a href="2" class="waves-effect waves-light btn-large red">Próximo</a>
 </div>
   
